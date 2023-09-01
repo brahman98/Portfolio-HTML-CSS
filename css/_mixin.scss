@@ -1,0 +1,18 @@
+@mixin displayFlex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin displayFlexSB() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin font($size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+
+}

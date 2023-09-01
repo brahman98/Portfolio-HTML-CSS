@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/54cdbeebd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header center">
+      <div class="header__left">
+        <a href="index.html" class=""><img class="" src="img/logo.svg" alt="logo" /></a>
+        <a href="index.html" class=""><img class="" src="img/icon.svg" alt="icon" /></a>
+      </div>
+      <div class="header__right">
+        <input id="switcher" type="checkbox" checked>
+        <label for="switcher" class="">
+          <img class="header__img" src="img/menu.svg" alt="menu" />
+        </label>
+          <nav class="header__nav">
+            <h3>MENU</h3>
+            <ul class="header__ul">
+              <li class="header__li">MAN
+                <ul class="header__ul2">
+                  <li class="header__li2">Accessories</li>
+                  <li class="header__li2">Bags</li>
+                  <li class="header__li2">Denim</li>
+                  <li class="">T-Shirts</li>
+                </ul>
+              </li>
+              <li class="header__li">WOMAN
+                <ul class="header__ul2">
+                  <li class="header__li2">Accessories</li>
+                  <li class="header__li2">Jackets & Coats</li>
+                  <li class="header__li2">Polos</li>
+                  <li class="header__li2">T-Shirts</li>
+                  <li class="">Shirts</li>
+                </ul>
+              </li>
+              <li class="header__li">KIDS
+                <ul class="header__ul2">
+                  <li class="header__li2">Accessories</li>
+                  <li class="header__li2">Jackets & Coats</li>
+                  <li class="header__li2">Polos</li>
+                  <li class="header__li2">T-Shirts</li>
+                  <li class="header__li2">Shirts</li>
+                  <li class="">Bags</li>
+                </ul>
+              </li>
+            </ul>
+            <label for="switcher" class="nav__close">
+              <i class="cart__exit fa-solid fa-xmark"></i>
+            </label>
+          </nav>
+
+        <a href="registration.html" class="header__a">
+          <img class="" src="img/account.svg" alt="account"/>
+        </a>
+        <a href="cart.html" class="">
+          <img class="header__a" src="img/cart.svg" alt="cart" />
+        </a>
+      </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb center">
+      <h3 class="breadcrumb__heading">NEW ARRIVALS</h3>
+      <nav>
+        <ul class="breadcrumb__ul">
+          <li class="breadcrumb__list"><a class="breadcrumb__link" href="index.html">HOME</a></li>
+          <li class="breadcrumb__list"><a class="breadcrumb__link" href="#">&#8201;MEN</a></li>
+          <li class="breadcrumb__list"><a class="breadcrumb__link" href="#">&#8201;NEW ARRIVALS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- SLIDER IMAGE -->
+    <div class="slider">
+      <div class="slider__arrow slider__arrow_left">&lsaquo;</div>
+      <img class="slider__img" src="img/productpage.png" alt="product">
+      <div class="slider__arrow slider__arrow_right">&rsaquo;</div>
+    </div>
+
+    <!-- PRODUCT INFO -->
+    <article class="infocard center">
+      <h4 class="infocard__h4">WOMEN COLLECTION</h4>
+      <hr class="infocard__hr1">
+      <h3 class="infocard__h3">MOSCHINO CHEAP AND CHIC</h3>
+      <p class="infocard__p">Compellingly actualize fully researched processes before proactive outsourcing.
+        Progressively syndicate collaborative architectures before cutting-edge services.
+        Completely visualize parallel core competencies rather than exceptional portals. </p>
+      <span class="infocard__span">$561</span>
+      <hr class="infocard__hr2">
+      <div class="infocard__sort">
+        <details class="infocard__details">
+          <summary class="infocard__summary">CHOOSE COLOR &or;</summary>
+          <ul class="infocard__ul">
+            <li class="sort__li">
+              <input type="radio" id="contactChoice1" name="contact" value="email">
+              <label for="contactChoice1">Green</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="contactChoice2" name="contact" value="email">
+              <label for="contactChoice2">Red</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="contactChoice3" name="contact" value="email">
+              <label for="contactChoice3">Yellow</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="contactChoice4" name="contact" value="email">
+              <label for="contactChoice4">Blue</label>
+            </li>
+          </ul>
+        </details>
+        <details class="infocard__details">
+          <summary class="infocard__summary">CHOOSE SIZE &or;</summary>
+          <ul class="infocard__ul">
+            <li class="sort__li">
+              <input type="checkbox" class="custom-checkbox" id="xs" name="happy" value="yes">
+              <label for="xs">XS</label>
+            </li>
+            <li class="sort__li">
+              <input type="checkbox" class="custom-checkbox" id="s" name="happy" value="yes">
+              <label for="s">S</label>
+            </li>
+            <li class="sort__li">
+              <input type="checkbox" class="custom-checkbox" id="m" name="happy" value="yes">
+              <label for="m">M</label>
+            </li>
+            <li class="sort__li">
+              <input type="checkbox" class="custom-checkbox" id="l" name="happy" value="yes">
+              <label for="l">L</label>
+            </li>
+          </ul>
+        </details>
+        <details class="infocard__details">
+          <summary class="infocard__summary">QUANTITY &or;</summary>
+          <ul class="infocard__ul">
+            <li class="sort__li">
+              <input type="radio" id="quantity1" name="contact" value="email">
+              <label for="quantity1">1</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="quantity2" name="contact" value="email">
+              <label for="quantity2">2</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="quantity3" name="contact" value="email">
+              <label for="quantity3">3</label>
+            </li>
+            <li class="sort__li">
+              <input type="radio" id="quantity4" name="contact" value="email">
+              <label for="quantity4">4</label>
+            </li>
+          </ul>
+        </details>
+      </div>
+      <a class="button" href="catalog.html"><img src="img/cart2.svg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add to Cart</a>
+    </article>
+
+    <!-- CATALOG - PRODUCTS -->
+    <section class="catalog center margin-bottom100">
+
+      <section class="product__box">
+          <article class="product">
+            <a class="product__link" href="product.html"
+              ><img class="product__image" src="img/product4.png" alt="product"
+            /></a>
+            <div class="product__content">
+              <a href="product.html">ELLERY X M'O CAPSULE</a>
+              <p class="product__p">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+              </p>
+              <div class="product__price">$52.00</div>
+            </div>
+            <a class="product__add" href="#">Add to Cart</a>
+          </article>
+  
+          <article class="product hide3">
+            <a class="product__link" href="product.html"
+              ><img class="product__image" src="img/product3.png" alt="product"
+            /></a>
+            <div class="product__content">
+              <a href="product.html">ELLERY X M'O CAPSULE</a>
+              <p class="product__p">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+              </p>
+              <div class="product__price">$52.00</div>
+            </div>
+            <a class="product__add" href="#">Add to Cart</a>
+          </article>
+  
+          <article class="product hide2">
+            <a class="product__link" href="product.html"
+              ><img class="product__image" src="img/product6.png" alt="product"
+            /></a>
+            <div class="product__content">
+              <a href="product.html">ELLERY X M'O CAPSULE</a>
+              <p class="product__p">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+              </p>
+              <div class="product__price">$52.00</div>
+            </div>
+            <a class="product__add" href="#">Add to Cart</a>
+          </article>
+      </section>
+    </section>
+
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe center">
+      <article class="subscribe__left">
+        <img class="subscribe__img" src="img/face.png" alt="face" />
+        <p class="subscribe__left_p">
+          “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+          <em>a pulvinar purus condimentum“</em>
+        </p>
+      </article>
+      <article class="subscribe__right">
+        <h3 class="subscribe__h">SUBSCRIBE</h3>
+        <p class="subscribe__p">FOR OUR NEWLETTER AND PROMOTION</p>
+        <form action="" class="subscribe__form">
+          <input
+            class="subscribe__input"
+            type="email"
+            placeholder="Enter Your Email"
+          />
+          <button class="subscribe__button" type="submit">Subscribe</button>
+        </form>
+      </article>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer center">
+      <div class="footer__copy">© 2021 Brand All Rights Reserved.</div>
+      <div class="footer__links">
+        <a href="" class="footer__a"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="" class="footer__a"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" class="footer__a"
+          ><i class="fa-brands fa-pinterest-p"></i
+        ></a>
+        <a href="" class="footer__a"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
